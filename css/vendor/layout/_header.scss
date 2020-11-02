@@ -1,0 +1,10 @@
+$header-background-color: #FFEAB4;
+
+.header {
+  background-color: $header-background-color;
+
+  &__main {
+    height: 60px;
+    z-index: 2;
+  }
+}

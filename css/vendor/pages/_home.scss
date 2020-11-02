@@ -1,0 +1,169 @@
+.intro {
+  padding: 23px 0 23px 0;
+
+  &__header {
+
+    &__col {
+      padding: 0 10px;
+    }
+
+    &__item {
+      text-align: center;
+
+      &__text {
+        color: #332083;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 14px;
+        text-transform: uppercase;
+        height: 34px;
+      }
+    }
+  }
+
+  &__middle {
+    text-align: center;
+  }
+
+  &__footer {
+
+    &__item {
+
+      &__text {
+        color: #1E0470;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 24px;
+        text-align: center;
+        text-transform: uppercase;
+        padding: 0 33px;
+      }
+    }
+  }
+}
+
+.catalog {
+  margin-top: 40px;
+  margin-bottom: 22px;
+
+  &__col__p-rht {
+    padding-right: 5px;
+  }
+
+  &__col__p-lft {
+    padding-left: 5px;
+  }
+
+  &__item {
+    height: 173px;
+    text-align: center;
+    padding: 21px 0 14px 0;
+    box-shadow: inset 0 0 40px rgba(0, 0, 0, 0.1);
+    margin-bottom: 9px;
+
+    &.marketplace {
+      background-color: #FF6633;
+    }
+
+    &.b2b-experience {
+      background-color: #3399FF;
+    }
+
+    &.conversations {
+      background-color: #E97792;
+    }
+
+    &.stage {
+      background-color: #FFCC33;
+    }
+
+    &.workshops {
+      background-color: #99CC33;
+    }
+
+    &.vote-for-you {
+      background-color: #220074;
+    }
+
+    &__text {
+      margin-top: 16px;
+
+      h3 {
+        font-size: 15px;
+        line-height: 24px;
+        font-weight: 700;
+        color: #FFFFFF;
+        text-transform: uppercase;
+      }
+    }
+  }
+}
+
+.faq-slider {
+
+  &__item {
+    padding-right: 9px;
+
+    &__bg {
+      background-color: #C2BCDA;
+      width: 135px;
+      height: 135px;
+      padding: 26px 16px;
+    }
+
+    &__img {
+      text-align: center;
+
+      img {
+        display: inline-block;
+      }
+    }
+
+    &__text {
+      font-size: 13px;
+      line-height: 16px;
+      text-align: center;
+      font-weight: 700;
+      color: #ffffff;
+      text-transform: uppercase;
+    }
+  }
+}
+
+.intro-time {
+  text-align: center;
+  margin-top: 37px;
+  margin-bottom: 28px;
+
+  h4 {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 31px;
+    color: #332083;
+    text-transform: uppercase;
+  }
+}
+
+.connect-with-us {
+  text-align: center;
+  margin-bottom: 48px;
+
+  h5 {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 26px;
+    color: #332083;
+    text-transform: uppercase;
+  }
+
+  &__item {
+    display: inline-block;
+    margin-right: 3px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .faq-slider {
+    margin: 0 -15px 0 0;
+  }
+}

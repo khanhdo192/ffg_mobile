@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FFG - Marketplace Vendor</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="">
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap/bootstrap.css" rel="stylesheet">
+    <!-- Slick css -->
+    <link rel="stylesheet" type="text/css" href="css/slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="css/slick/slick-theme.css">
+    <!-- Font -->
+    <link rel="stylesheet" href="fonts/line/css/line-awesome.min.css">
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<!-- Header -->
+<header id="header" class="header">
+    <div class="header__main d-flex align-items-center flex-wrap">
+        <div class="container">
+            <div class="row">
+                <div class="col-6 d-flex">
+                    <div class="header__logo d-flex align-items-center">
+                        <a href="/">
+                            <img src="img/logo/logo.svg?v=1.0.0" alt="Logo">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <!-- Menu -->
+                    <nav id="menu">
+                        <img onclick="openOverlayMenu()" class="cursor-pointer" src="img/hamburger-button.svg" alt=""/>
+                    </nav>
+                    <!-- End menu -->
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<!-- End header -->
+
+<div id="wrapper">
+    <!-- Intro -->
+    <div class="intro">
+        <div class="intro__header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-4 intro__header__col">
+                        <div class="intro__header__item">
+                            <div class="intro__header__item__text">ORGANISED BY</div>
+                            <div class="intro__header__item__img">
+                                <img src="img/pages/home/raise.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4 intro__header__col">
+                        <div class="intro__header__item">
+                            <div class="intro__header__item__text">Virtual Venue Sponsor</div>
+                            <div class="intro__header__item__img">
+                                <img src="img/pages/home/south-beach.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4 intro__header__col">
+                        <div class="intro__header__item">
+                            <div class="intro__header__item__text">PRESENTED BY</div>
+                            <div class="intro__header__item__img">
+                                <img src="img/pages/home/dbs.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="intro__middle" style="margin-top: 26px;">
+            <img src="img/pages/marketplace-vendors/MarketPlace-bg.svg" alt="Logo Marketplace Vendor">
+        </div>
+    </div>
+    <!-- End intro -->
+
+    <div class="fashion position-relative">
+        <img class="centered-axis-xy avatar-vendor" src="" alt="">
+    </div>
+
+    <!-- Begin vendor list -->
+    <div class="vendor">
+        <div class="container">
+            <div class="row vendor-lists"></div>
+
+            <div class="row">
+                <div class="col-12">
+                    <div class="vendor__lists__paging">
+                        <div class="vendor__lists__paging__prev float-left">
+                            <a href=""><i class="las la-angle-left"></i></a>
+                        </div>
+                        <div class="vendor__lists__paging__next float-right">
+                            <a href=""><i class="las la-angle-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End vendor list -->
+
+    <div class="ses-list">
+        <div class="container ses-list-items">
+            <h3>Select the icon to find out which SEs contribute to this sustainability goal!</h3>
+
+        </div>
+    </div>
+
+    <div class="intro-time">
+        <h4>24 OCTOBER to 22 NOVEMBER</h4>
+    </div>
+
+    <div class="connect-with-us">
+        <h5>Connect with us</h5>
+        <div class="connect-with-us__item">
+            <a href="https://www.facebook.com/raisesingapore/">
+                <img src="img/pages/home/Facebook-icon-f.svg" alt="connect facebook with us">
+            </a>
+        </div>
+        <div class="connect-with-us__item">
+            <a href="https://www.instagram.com/accounts/login/?next=/raisesg/">
+                <img src="img/pages/home/Instagram-icon-f.svg" alt="connect facebook with us">
+            </a>
+        </div>
+        <div class="connect-with-us__item">
+            <a href="https://www.linkedin.com/company/raise-sg/?originalSubdomain=sg">
+                <img src="img/pages/home/Linkedin-icon-f.svg" alt="connect linkedin with us">
+            </a>
+        </div>
+    </div>
+
+    <div id="overlayMenu" class="overlay">
+        <img src="img/img-close.svg" onclick="closeOverlayMenu()" class="closebtn" alt=""/>
+
+        <div class="overlay-content">
+            <a href="marketplace.html" class="text-color-orange">MARKETPLACE</a>
+            <a href="" class="text-color-white-blue">B2B EXPERIENCE</a>
+            <a href="conversations.html" class="text-color-pink">CONVERSATIONS</a>
+            <a href="workshop.html" class="text-color-cyan">WORKSHOPS</a>
+            <a href="stage.html" class="text-color-FFC004">STAGE</a>
+            <a href="#" class="text-color-blue">FESTIVAL GUIDE</a>
+            <a href="#" class="text-color-blue">HAPPENING THIS WEEK</a>
+            <a href="#" class="text-color-blue">ABOUT US</a>
+            <a href="#" class="text-color-blue">FAQ</a>
+        </div>
+    </div>
+
+    <img src="img/AskAboutFFG.svg" class="img-ask" alt="ask about FFG">
+
+</div>
+<!-- JS, Popper.js, and jQuery -->
+<script src="js/jquery/jquery-3.5.1.js"></script>
+<script src="js/popper/popper.min.js"></script>
+<script src="js/bootstrap/bootstrap.js"></script>
+<!-- Slick JS -->
+<script src="js/slick/slick.js" type="text/javascript" charset="utf-8"></script>
+<!-- Main JS -->
+<script src="js/vendor/layout/_slider-featured-products.js"></script>
+<script src="js/vendor/main.js"></script>
+<script src="js/script.js"></script>
+<script>
+    // call vendor items
+    $(() => {
+        let marketID = getUrlParameter('id');
+        let avatarVendor = $('.avatar-vendor').attr('src', getAvatarCategory(marketID));
+
+        $.ajax({
+            type: 'GET',
+            url: BASE_URL + '/marketplace/' + marketID,
+            dataType: 'JSON',
+            beforeSend: function() {
+                $('body').append(`<div class="loader-container"><div class="loader"></div></div>`);
+            },
+            success: function(response, textStatus, jqXHR) {
+                let paging = response.meta.pagination;
+
+                response.data.forEach(item => {
+                    let marketplaceVendor = `<div class="col-6 col-md-4 col-lg-3">
+                    <div class="vendor__item" alt="${item.socialCause.data.map(itemSC => itemSC.tooltip).join(', ')}">
+                        <div class="vendor__item__box">
+                            <a href="vendors-profile.html?marketId=${marketID}&id=${item.id}"><img src="${item.image}" alt=""></a>
+                        </div>
+                        <div class="vendor__item__title">
+                            <a href="vendors-profile.html?marketId=${marketID}&id=${item.id}"><h4>${item.title}</h4></a>
+                        </div>
+                        <div class="vendor__item__action">
+                            <a href="vendors-profile.html?marketId=${marketID}&id=${item.id}" class=" vendor__item__action__btn">LEARN MORE</a>
+                            <a href=${item.shopUrl} class=" vendor__item__action__btn">SHOP NOW</a>
+                        </div>
+                    </div>
+                </div>`;
+
+                    $('.vendor-lists').append(marketplaceVendor);
+                });
+
+                if (paging && (Number(paging.count) > 0) && (Number(paging.current_page) < Number(paging.total_pages))) {
+                    $('.vendor__lists__paging__prev > a').attr('href', paging.links.previous);
+                    $('.vendor__lists__paging__next > a').attr('href', paging.links.next);
+
+                    if (Number(paging.current_page) === 1) {
+                        $('.vendor__lists__paging__prev > a').addClass('disabled');
+                    }
+                    if (Number(paging.current_page) === Number(paging.total_pages)) {
+                        $('.vendor__lists__paging__next > a').addClass('disabled');
+                    }
+                } else {
+                    $('.vendor__lists__paging').hide();
+                }
+
+            },
+            error: function (xhr, ajaxOptions, thrownError) {
+                console.log(xhr);
+                console.log(thrownError);
+            },
+            complete: function () {
+                $('.loader-container').remove();
+            }
+        });
+    })
+
+    // call socialCause
+    $(() => {
+        $.ajax({
+            type: 'GET',
+            url: BASE_URL + '/socialCause',
+            dataType: 'JSON',
+            beforeSend: function() {
+                $('body').append(`<div class="loader-container"><div class="loader"></div></div>`);
+            },
+            success: function(response, textStatus, jqXHR) {
+
+                response.data.forEach(element => {
+                    $('.ses-list-items').append(`<div class="ses-list__item">
+                        <a href="#" class="ses-list__item__a"><img src="${element.image}" alt="${element.tooltip}"></a>
+                    </div>`);
+                })
+
+                $('.ses-list__item__a').unbind();
+                $('.ses-list__item__a').click(function (e) {
+                    e.preventDefault();
+                    let alt = $(this).find('img').first().attr('alt');
+
+                    $('.vendor__item').each(function () {
+                        let vendorItem = $(this);
+                        let title = vendorItem.find('.vendor__item__title h4').first();
+                        let box = vendorItem.find('.vendor__item__box').first();
+
+
+                        if(vendorItem.attr('alt').includes(alt)){
+                            title.css('color', '#FF2B45');
+                            box.css('border', 'solid 1px #FF2B45');
+                        }else{
+                            title.css('color', '');
+                            box.css('border', 'none');
+                        }
+                    });
+
+                    document.getElementsByClassName("vendor-lists")[0].scrollIntoView( {behavior: "smooth" })
+                })
+            },
+            error: function (xhr, ajaxOptions, thrownError) {
+                console.log(xhr);
+                console.log(thrownError);
+            },
+            complete: function () {
+                $('.loader-container').remove();
+            }
+        });
+
+    });
+</script>
+</body>
+</html>

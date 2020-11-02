@@ -1,0 +1,129 @@
+.fashion {
+  height: 147px;
+  margin-bottom: 41px;
+}
+
+.vendor {
+  margin-bottom: 50px;
+
+  img {
+    max-width: 100%;
+    height: 100%;
+  }
+
+  &__item {
+    margin-bottom: 42px;
+
+    &__box {
+      width: 117px;
+      height: 119px;
+      background: #E97792;
+      margin: auto;
+
+      &:hover {
+        cursor: pointer;
+      }
+    }
+
+    &__title {
+      margin: 8px 0;
+      padding: 0 8px;
+
+      a:hover {
+        text-decoration: none;
+      }
+
+      h4 {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 21px;
+        text-align: center;
+        color: #E97792;
+        height: 44px;
+        text-transform: uppercase;
+      }
+    }
+
+    &__action {
+      text-align: center;
+
+      &__btn {
+        display: inline-block;
+        width: 68px;
+        height: 16px;
+        text-align: center;
+        font-weight: 500;
+        font-size: 9.3356px;
+        line-height: 12px;
+        color: #FFFFFF;
+        background: #E06186;
+        padding: 3px 3px;
+        margin-right: 5px;
+
+        &:last-child {
+          margin-right: 0;
+        }
+
+        &:hover {
+          text-decoration: none;
+          background-color: #1B0268;
+          color: #FFFFFF;
+        }
+
+      }
+    }
+  }
+
+  &__lists__paging {
+    width: 50%;
+    margin: auto;
+
+    &__prev, &__next {
+
+      a {
+        display: inline-block;
+        background-color: #FF6633;
+        color: #ffffff;
+        width: 25px;
+        height: 25px;
+        text-align: center;
+      }
+    }
+  }
+}
+
+.ses-list {
+  padding-bottom: 20px;
+
+  h3 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #1D0777;
+    margin-bottom: 30px;
+  }
+
+  &__item {
+    display: inline-block;
+    margin: 0 4px 8px 2px;
+
+    a {
+      display: inline-block;
+      width: 80px;
+      height: 51px;
+
+      img {
+        max-width: 100%;
+      }
+    }
+  }
+}
+
+
+@media screen and (max-width: 370px) {
+  .vendor__item__title h4 {
+    font-size: 14px;
+  }
+}

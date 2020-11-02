@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Workshop</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="">
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap/bootstrap.css" rel="stylesheet">
+    <!-- Slick css -->
+    <link rel="stylesheet" type="text/css" href="css/slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="css/slick/slick-theme.css">
+    <!-- Font -->
+    <link rel="stylesheet" href="fonts/line/css/line-awesome.min.css">
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="css/style.css?v=1">
+</head>
+<body>
+
+<div class="bg-color-header">
+    <div class="container-mobile h-60px d-flex justify-content-between align-items-center">
+        <a href="index.html"><img class="ml-3" src="img/festival-for-good.svg" alt="" /></a>
+        <img onclick="openOverlayMenu()" class="cursor-pointer mr-3" src="img/hamburger-button.svg" alt="" />
+    </div>
+</div>
+
+<div class="container-mobile p-0 min-vh-100">
+    <div class="">
+        <div class="d-flex mx-2 justify-content-between pt-4">
+            <div class="flex-fill-110 text-center">
+                <div class="font-weight-500 font-size-13px line-height-14px">ORGANISED BY</div>
+                <img class="mt-4" src="img/Organsted.svg">
+            </div>
+            <div class="flex-fill-110 text-center">
+                <div class="font-weight-500 font-size-13px line-height-14px">VIRTUAL VENUE
+                    SPONSOR</div>
+                <img class="mt-2" src="img/SouthBeach.svg">
+            </div>
+            <div class="flex-fill-110 text-center">
+                <div class="font-weight-500 font-size-13px line-height-14px">PRESENTED BY</div>
+                <img class="mt-4" src="img/Dbs.svg">
+            </div>
+        </div>
+
+        <div class="mx-3">
+            <div class="text-center mt-4">
+                <img class="max-width" src="img/Workshop.svg" />
+            </div>
+
+            <div class="mt-4 border-cyan p-4 bg-color">
+                <div class="text-center font-weight-bold line-height-24px font-size-18px">
+                    Take part in our workshops organised by Social Enterprises ranging from hands-on crafting experiences to awareness & education sessions.
+                </div>
+
+                <div class="text-center font-weight-bold line-height-24px font-size-18px mt-3">
+                    With the variety in topics, the workshops are sure to cater to the most curious of minds and change the way you do things for the better.
+                </div>
+            </div>
+
+            <!-- Begin WorkShop list -->
+            <div class="workshop-list"></div>
+
+            <!--
+            <div class="position-relative mt-4">
+                <div class="workshop-top-border"></div>
+                <div class="workshop-bottom-border"></div>
+                <div class="workshop-right-border"></div>
+                <div class="workshop-left-border"></div>
+                <div class="workshop-padding">
+                    <div class="bg-color p-3 pb-4">
+                        <div class="h-100px bg-color-blue w-100 h-md-170px h-lg-220px"></div>
+                        <div class="text-center mt-4 font-weight-bold text-color-blue line-height-23px font-size-17px">
+                            Asset-based Community Development (ABCD) - Primer Version
+                        </div>
+
+                        <div class="mt-4 text-center font-weight-bold text-color-pink font-size-14px line-height-19px">TBC: 30 OCTOBER 2020, FRI</div>
+                        <div class="mt-2 text-center font-weight-bold text-color-blue font-size-14px line-height-19px">TBC: 9:00 am - 6:00 pm, 60 MINS</div>
+                        <div class="mt-3 text-center font-weight-bold text-color-blue font-size-14px line-height-19px">Price: <$100 per pax</div>
+
+                        <div class="text-center mt-4">
+                            <button class="btn btn-primary bg-color-gray rounded-0 border-0 px-4 py-2 font-weight-bold">Waitlist Me</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            -->
+
+            <!-- End WorkShop list -->
+
+            <!-- Begin Footer -->
+            <div class="mt-5 font-weight-bold font-size-28px line-height-31px text-color-blue text-center">24 OCTOBER TO 22 NOVEMBER</div>
+
+            <div class="text-center text-color-blue line-height-26px font-size-15px font-weight-500 mt-4">CONNECT WITH US</div>
+            <div class="text-center mt-2 pb-5">
+                <a href="https://www.facebook.com/raisesingapore/"><img src="img/Facebook.svg" alt="" /></a>
+                <a href="https://www.instagram.com/accounts/login/?next=/raisesg/"><img src="img/Instagram.svg" alt="" /></a>
+                <a href="https://www.linkedin.com/company/raise-sg/?originalSubdomain=sg"><img src="img/Linkedin.svg" alt="" /></a>
+            </div>
+            <!-- End Footer -->
+        </div>
+    </div>
+</div>
+
+<div id="overlayMenu" class="overlay">
+    <img src="img/img-close.svg" onclick="closeOverlayMenu()" class="closebtn" />
+
+    <div class="overlay-content">
+        <a href="marketplace.html" class="text-color-orange">MARKETPLACE</a>
+        <a href="" class="text-color-white-blue">B2B EXPERIENCE</a>
+        <a href="conversations.html" class="text-color-pink">CONVERSATIONS</a>
+        <a href="workshop.html" class="text-color-cyan">WORKSHOPS</a>
+        <a href="stage.html" class="text-color-FFC004">STAGE</a>
+        <a href="#" class="text-color-blue">FESTIVAL GUIDE</a>
+        <a href="#" class="text-color-blue">HAPPENING THIS WEEK</a>
+        <a href="#" class="text-color-blue">ABOUT US</a>
+        <a href="#" class="text-color-blue">FAQ</a>
+    </div>
+</div>
+
+<img src="img/AskAboutFFG.svg" class="img-ask"/>
+
+<!-- JS, Popper.js, and jQuery -->
+<script src="js/jquery/jquery-3.5.1.js"></script>
+<script src="js/popper/popper.min.js"></script>
+<script src="js/bootstrap/bootstrap.js"></script>
+<!-- Slick JS -->
+<script src="js/slick/slick.js" type="text/javascript" charset="utf-8"></script>
+<!-- Main JS -->
+<script src="js/vendor/main.js"></script>
+<script src="js/script.js"></script>
+<script>
+    $(() => {
+        $.ajax({
+            type: 'GET',
+            url: BASE_URL + '/workshop',
+            dataType: 'JSON',
+            beforeSend: function() {
+                $('body').append(`<div class="loader-container"><div class="loader"></div></div>`);
+            },
+            success: function(response, textStatus, jqXHR) {
+                response.data.forEach(item => {
+                      let workshop = `<div class="position-relative mt-4">
+                    <div class="workshop-top-border"></div>
+                    <div class="workshop-bottom-border"></div>
+                    <div class="workshop-right-border"></div>
+                    <div class="workshop-left-border"></div>
+                    <div class="workshop-padding">
+                        <div class="bg-color p-3 pb-4">
+                            <div class="h-100px bg-color-blue w-100 h-md-170px h-lg-220px background-size-cover background-repeat-no-repeat" style="background-image: url('${item.image.trim()}');"></div>
+                            <div class="text-center mt-4 font-weight-bold text-color-blue line-height-23px font-size-17px">
+                                ${item.title}
+                            </div>
+
+                            <div class="mt-4 text-center font-weight-bold text-color-pink font-size-14px line-height-19px">${item.date}</div>
+                            <div class="mt-2 text-center font-weight-bold text-color-blue font-size-14px line-height-19px">${item.time}</div>
+                            <div class="mt-3 text-center font-weight-bold text-color-blue font-size-14px line-height-19px">${item.price}</div>
+
+                            <div class="text-center mt-4">
+                                <a href="${item.registerUrl}" class="btn btn-primary bg-cyan rounded-0 border-0 px-4 py-2 font-weight-bold">REGISTER</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>`;
+
+                    $('.workshop-list').append(workshop);
+                })
+            },
+            error: function (xhr, ajaxOptions, thrownError) {
+                console.log(xhr);
+                console.log(thrownError);
+            },
+            complete: function () {
+                $('.loader-container').remove();
+            }
+        });
+    })
+</script>
+</body>
+</html>
